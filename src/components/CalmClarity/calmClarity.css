@@ -1,0 +1,48 @@
+.calmClarity{
+    background-image: url("../../assets/Rectangle3.png");
+    min-height: 
+    440px;
+    width: 100%;
+    margin-top: -20px;
+    line-height: 18px;
+}
+@media (max-width:767px) {
+    .calmClarity{
+        margin-top:-4px
+    }
+}
+ .calmClarity button{
+     background-color: #CE8C6C !important;
+     border: 2px solid #C2695F !important;
+     
+ }
+ @media (max-width:767px) {
+    .calmClarity p{
+        text-align: center !important;
+    }
+   
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   .calmClarity .calm{
+    margin-top: -75px !important;
+   }
+ }
+ .calmClarity h1{
+     font-size: 45px !important;
+ }
+
+  
+ @media (min-width:768px){
+    .calmClarity button{
+         width:330px !important;
+      }
+    }
+    .shopbtncalm :hover{
+background-image: linear-gradient(to right,#C47B59,#EF9632 50%);
+color: #090B0B !important;
+    }
+   .calmClarity button{
+       transition-duration: .5s !important;
+   }

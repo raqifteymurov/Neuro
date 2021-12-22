@@ -1,0 +1,57 @@
+.energyFocus{
+    margin-top: 100px;
+}
+.backimage{
+ min-height: 421px;
+    width: 100%;
+   margin-top: -13px;
+    background-image:url("../../assets/Rectangle2.png") ;
+}
+.backimage h1{
+    font-size: 41px;
+}
+.btn-secondary{
+    background-color: #005466 !important;
+   border : 2px solid white !important; 
+   
+}
+
+
+@media (min-width:768px){
+   .energyFocus  .btn{
+        width:330px !important;
+     }
+     .energyH{
+        width:199px;
+     }
+     
+    }
+    .focus1{
+        margin-top: 45px !important; 
+    }
+@media (max-width:768px){
+    
+ 
+    .focus1{
+        margin-top: -120px;
+        display: flex;
+    }
+   
+   
+}
+    
+      
+ 
+@media (max-width:576px) {
+    .backimage{
+        margin-top: -4px;
+    }
+    
+}
+ .shopbtn :hover{
+    background-image: linear-gradient(to right,#19ACC4, #D24020) !important;
+    color: black !important;
+}
+.energyFocus button{
+    transition : background-image 2s,color .5s;
+}

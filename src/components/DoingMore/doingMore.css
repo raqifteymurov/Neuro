@@ -1,0 +1,19 @@
+.doingMore{
+    background: #FFFFFF;
+    min-height: 
+    378px;
+    width: 100%;
+}
+.doingMore p{
+    color: #000000;
+    font-family: Roboto;
+}
+.doingMore a{
+    text-decoration: none;
+    color: #000000;
+}
+@media (max-width:640px) {
+    .doingMore p,.doingMore h1{
+        text-align: center;
+    }
+}

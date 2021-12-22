@@ -1,0 +1,39 @@
+.intheZone {
+  width: 100%;
+  min-height: 600px;
+  background: #ffffff;
+}
+#btn2 {
+  background-color: white !important;
+  transition-duration: .5s;
+}
+#btn2 {
+  color: black !important;
+  border: 1.7px solid black !important;
+}
+@media (min-width: 768px) {
+   
+  .gettinginthezone{
+    width: 335px;
+  }
+}
+@media (max-width:767px) {
+    .ideal{
+        display: flex;
+        justify-content: center !important;
+    }
+    .somedays{
+        text-align: center;
+    }
+    .intheZone{
+        margin-top: 50px;
+    }
+    .rewerse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+#btn2:hover{
+  background-color: #E7E9EB!important;
+ 
+}

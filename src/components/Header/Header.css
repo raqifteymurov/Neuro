@@ -1,0 +1,81 @@
+ .Header{
+     height: 84px;
+     background: #87ADB6;
+     z-index: 10;
+     
+ }
+   .Header{
+       position: fixed;
+       top: 0;
+       width: 100%;
+       display: flex;  
+   }
+   .Header a{
+       text-decoration: none;
+       color: #000000;
+       
+       display: block;
+   } 
+  
+   @media (max-width:768px) {
+    .sign-in a{
+         font-size: 15px !important;
+         
+       }
+     
+       .sign-in{
+           width: 100% !important;  
+           display: flex;         
+           justify-content:  end !important ;    
+       }   
+       .neuro{
+           display: flex;
+           justify-content: end !important;
+       }
+       .shopp{
+           order: 2 !important;
+       }
+       .neuroo{
+           order: 1 !important;
+       }
+       .sign-inn{
+           order: 3 !important;
+       }
+       .neuro{
+           justify-content: start !important;
+       }
+       .sign-innn{
+        width: 66px !important;
+      }
+     
+   }
+
+    @media (max-width:576px) {
+        .neuro img{
+            width: 80px !important;
+        }
+        .sign-in img{
+            width: 18px !important;
+        }
+        .shop{
+            display: flex;
+            justify-content:center!important;
+        }
+       
+    }
+    @media (min-width:768px) {
+        
+           .sign-in{
+               width: 100% !important;  
+               display: flex;         
+               justify-content: end !important ;    
+           }   
+           .neuro{
+               display: flex;
+               justify-content: center !important;
+           }
+          
+       }
+      
+ 
+

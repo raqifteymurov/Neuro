@@ -1,0 +1,95 @@
+.mentalGame {
+  background-color: #ffffff;
+  /* background-color: rosybrown; */
+  min-height: 607px;
+  width: 100%;
+}
+.pp {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 31px;
+}
+@media (max-width: 576px) {
+  .pp p {
+    font-size: 17px;
+  }
+  .hh h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 483px) {
+  .pp p {
+    font-size: 14px;
+  }
+
+  .hh h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 400px) {
+  .pp p {
+    font-size: 11.2px;
+  }
+}
+@media (min-width: 576px) and (max-width: 918px) {
+  .image1 {
+    display: flex;
+    justify-content: end !important;
+  }
+  .image2 {
+    display: flex;
+    justify-content: start !important;
+  }
+}
+@media (max-width: 576px) {
+  .image1 {
+    display: flex;
+    justify-content: center !important;
+  }
+  .image2 {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+.mentalblock {
+  height: 250px !important;
+  width: 290px;
+}
+#mentalblock1 {
+  background-color: #005466;
+}
+button {
+  width: 182px;
+}
+.mentalbtn {
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid black !important;
+}
+#mentalblock2 {
+  background-color: #f7d8bf !important;
+}
+#mentalblock2 button:hover {
+  background-color: #ce8c6c !important;
+  color: white !important;
+}
+#mentalblock1 button:hover {
+  background-color: #005466 !important;
+  color: white !important;
+}
+#mentalblock3 button:hover {
+  background-color: #f1faf6  !important;
+  color: black !important;
+}
+#mentalblock2 p {
+  color: #ce8c6c !important;
+}
+#mentalblock3 {
+  background-color: #f1faf6 !important;
+}
+#mentalblock3 p {
+  color: #99d2c1;
+}

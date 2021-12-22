@@ -1,0 +1,79 @@
+.vectorimage {
+  margin-top: -4%;
+}
+.backimageblue {
+  min-height: 380px;
+  width: 100%;
+  background-image: url("../../assets/Rectangle8.png");
+  margin-top: -3px;
+}
+ 
+.backimageblue a {
+  color: #21795f;
+  text-decoration: none;
+  border-bottom: 2px solid #21795f;
+  padding-right: 13px;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .backimageblue h1 {
+    width: 308px !important;
+  }
+  .backimageblue p {
+    width: 440px !important;
+  }
+  .backimageblue h1 {
+    font-size: 40px;
+  }
+  .backimageblue p {
+    font-size: 20px;
+  }
+  
+ 
+}
+ 
+.petals {
+  position: relative;
+}
+
+.petals img {
+  position: absolute;
+  width: 100%;
+  right: -18% !important;
+  top: -45%;
+    bottom: 15%;
+}
+@media (max-width:767px) {
+    .petals img{
+        position: absolute;
+        width: 100%;
+        right: -5% !important;
+        top: -54%;
+          bottom: 15%;
+          margin-top: 40px;
+    }
+    .backimageblue {
+        min-height: 700px !important;}
+  
+.howWeDoIt h1{
+    margin-top: 30px;
+}
+.howwedoita{
+    
+    display: flex;
+    justify-content: center !important;
+}
+.howwedoita a{
+     padding-left: 13px;
+}
+.howwedoith {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.howWeDoIt p{
+    text-align: center;
+}
+}
+ 
+ 

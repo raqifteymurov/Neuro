@@ -1,0 +1,44 @@
+.subscribe {
+  width: 100%;
+  min-height: 600px;
+  background: #f1faf6;
+}
+#btn3 {
+  background-color: #f1faf6 !important;
+}
+#btn3 {
+  color: black !important;
+  border: 1.7px solid black !important;
+  transition-duration: 0.5s;
+}
+@media (min-width: 768px) {
+  .ideal {
+    font-size: 30px !important;
+  }
+  .neverrun {
+    width: 310px;
+  }
+}
+@media (max-width: 767px) {
+  .ideal {
+    display: flex;
+    justify-content: center !important;
+  }
+  .somedays {
+    text-align: center;
+  }
+  .ideal {
+    margin-top: 50px;
+  }
+  .rewerse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .subscribe img {
+    margin-top: -50px;
+  }
+}
+#btn3:hover {
+  background-color: #ffffff !important;
+  
+}

@@ -1,0 +1,52 @@
+.ourMission{
+    background-image: url("../../assets/Rectangle7.png");
+    min-height: 600px;
+    width: 100%;
+}
+.ourMission p{
+    color: black  !important;
+
+}
+@media (min-width:768px) {
+    .westarted{
+        width: 318px !important;
+    
+    }
+}
+@media (max-width:769px) {
+    .westarted{
+        width: 100%;
+    }
+    .ourMission{
+        min-height: 400px;
+    }
+}
+@media (max-width:576px) {
+    .ourMission p{
+        font-size: 13px !important;
+    }
+    .ourMission h1{
+        font-size: 22px !important;
+    }
+    .ourMission{
+        min-height: 300px !important;
+    }
+}
+.ourMission a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    padding-right: 13px;
+}
+ @media (max-width:400px) {
+    .ourMission h1{
+        font-size: 18px !important;
+    }
+    .ourMission a{
+        font-size: 12px !important;
+    }
+    .ourMission p{
+        font-size: 11.5px !important;
+    }
+ }

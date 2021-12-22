@@ -1,0 +1,139 @@
+.img1 {
+  background-size: cover;
+  background-image: url(../../assets/Rectangle.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-around;  
+}
+.cardd h1,
+p {
+  color: #ffffff;
+}
+.cardd h1 {
+  font-size: 46px;
+}
+.cardd {
+  width: 100%;
+}
+.cardd button {
+  background-color: rgb(0, 0, 0);
+  padding: 8px;
+  width: 260px;
+  transition-duration: .5s;
+}
+@media (max-width: 768px) {
+  .img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .cardd h1,
+  .cardd p {
+    color: rgb(0, 0, 0);
+  }
+  .cardd p {
+    font-weight: bold;
+  }
+
+  .cardd {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    color: #000;
+    backdrop-filter: blur(10px);
+  }
+  .cardd h1,
+  .cardd p{
+    text-align: center;
+  }
+  .cardd button {
+    width: 300px;
+    
+  }
+  .Learn {
+    margin-bottom: 15px;
+  }
+  #gotitbtn{
+margin-bottom: 15px;
+height: 35px !important;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+}
+
+@media (min-width: 769px){
+  .cardd {
+    padding-top: 170px;
+  }
+ 
+}
+@media (max-width: 328px) {
+  .img1 h1 {
+    font-size: 35px;
+  }
+  .img1 button {
+    width: 200px;
+  }
+}
+.gotit{
+ min-height: 72px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  z-index: 11111;
+}
+
+.gotit p{
+  font-size: 16px;
+
+  
+}
+.gotit button{
+  width: 
+  130px;
+  height: 40px;
+  border-radius: 8px;
+}
+.cookies{
+  margin-left: 10px ;
+  
+  
+}
+.Learn a{
+  color: white;
+    text-decoration: none;
+    
+}
+  form :hover{
+background-color: #96D0DE!important;
+ color: rgb(0, 0, 0) !important;
+ border: 2px solid black !important;
+}
+#gotitbtn:hover{
+background-color: #E7E9EB !important;
+font-weight: bold !important;
+}
+#gotitbtn{
+  transition-duration: .5s;
+} 
+@media (max-width:600px) {
+  .gotit p{
+    text-align: center !important;
+    font-size: 15px !important;
+  }
+
+}
+ 
+ 
